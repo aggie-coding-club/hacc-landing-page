@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Zilla+Slab|Bungee+Inline" rel="stylesheet"> 
 
   <!-- ICONS -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
@@ -24,37 +24,38 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/countdown.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css?version=2">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
   
-  <script src="scripts/countdown.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts/main.js"></script>
 
 </head>
 <body>
 
   <div class="whole-page">
-    <div id="clockdiv">
-      <div>
-        <span class="days"></span>
-        <div class="smalltext">Days</div>
+    <button class="register alt">Register Here</button>
+    <div class="logo">
+      <img src="images/logo.svg" style="height: 60px; width: 60px">   
+    </div>
+    <div id="menu"></div>
+    <div id="header-container">
+      <div class="header">
+        <h1 class="header-text" style="font-size: 10rem; margin: 0px;">EXAMPLE TEXT YEAH</h1>
       </div>
-      <div>
-        <span class="hours"></span>
-        <div class="smalltext">Hours</div>
+      <br/>
+      <div class="header" id="header2">
+        <h1 style="font-size: 10rem; margin: 0px;">A LITTLE SHORT</h1>
       </div>
-      <div>
-        <span class="minutes"></span>
-        <div class="smalltext">Minutes</div>
+      <br/>
+      <div class="header" id="header3">
+        <h1 style="font-size: 10rem; margin: 0px;">REALLY SHORT</h1>
       </div>
-      <div>
-        <span class="seconds"></span>
-        <div class="smalltext">Seconds</div>
-      </div>
-    </div>    
+    </div>
   </div>
-  <div class="div-below">
+  <div>
     <div class="eight columns u-pull-left">
         <div>
           <h2>Change Your Perspective</h2>

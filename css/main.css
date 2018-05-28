@@ -1,21 +1,122 @@
-html{
+html, body{
     overflow-x: hidden;
+    font-family: 'Righteous', sans-serif;
+}
+
+.alt{
+    font-family: 'Zilla Slab', serif;
+}
+
+
+#menu {
+	position:fixed;
+	top:0px;
+	width:100%; 
+	height:100px; 
+	background-color:rgba(221,221,221,0.8);
+	color: #FFFFFF;
+	z-index:30;
+    display: none;
 }
 
 .whole-page{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background: url(../images/mountains.jpg);
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background: url(../images/landing.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: initial;
     background-position: center; 
 }
 
-.div-below{
-    padding: 80px;
-    padding-top: calc(100vh + 80px);
+.register{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    animation-delay: 1s;
+    background-color: white;
+    font-size: 2rem;
+    padding: 3px;
+    height: 50px;
+    width:  250px;
+    border: none;
+    z-index: 31;
+}
+
+.logo{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    animation-delay: 1s;
+    z-index: 31;
+}
+
+@keyframes revealLeftToRight1 {
+    0%   { max-width: 0%; }
+    100% { max-width: 1200px; }
+}
+@keyframes revealLeftToRight2 {
+    0%   { max-width: 0%; padding-right: 30px;}
+    100% { max-width: 970px; padding-right: 30px; }
+}
+@keyframes revealLeftToRight3 {
+    0%   { max-width: 0%; padding-right: 30px; }
+    100% { max-width: 890px; padding-right: 30px; }
+}
+@keyframes fadeInUp {
+    from { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+#header-container{
+    right: 0px;
+    bottom: 50px;
+}
+
+.header{
+    width: 1200px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: revealLeftToRight1 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    background-color: white;
+    direction: rtl;
+    text-align: right;
+    padding-right: 30px;
+    position: absolute;
+    right: 0px;
+    bottom: 330px;
+}
+
+#header2{
+    width: 970px;
+    animation: revealLeftToRight2 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    animation-delay: 0.1s;
+    max-width: 0px;
+    padding-right: 0px;
+    margin-left: 240px;
+    bottom: 190px;
+}
+
+#header3{
+    width: 890px;
+    animation: revealLeftToRight3 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    animation-delay: 0.2s;
+    max-width: 0px;
+    padding-right: 0px;
+    margin-left: 320px;
+    bottom: 50px;
 }
 
 .number-stats{
