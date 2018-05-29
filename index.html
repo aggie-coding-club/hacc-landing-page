@@ -31,14 +31,16 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.ico">
   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="scripts/main.js"></script>
+  <script src="scripts/text-animation.js"></script>
   <script src="scripts/smooth-scroll.js"></script>
 
 </head>
 <body>
 
-  <div class="whole-page">
+  <div id="whole-page">
     <!--<button id="register" class="alt">Register Here</button>
     <h1 id="title">hacc.</h1>
     <img id="logo" src="images/logo.svg">-->
@@ -60,8 +62,25 @@
       <button id="register" class="alt">Register</button>
     </div>
   </div>
-  <section id="about">
+  <section id="about" style="height: 1000px">
+    <h1 id="about-title" class="ml14">
+      <span class="text-wrapper">
+        <span class="letters">About</span>
+        <span class="line"></span>
+      </span>
+    </h1>
   </section>
-
+  <section id="schedule" style="height: 1000px">
+    <h1>Schedule</h1>
+  </section>
+  <section id="faq" style="height: 1000px">
+    <h1>Frequently Asked Questions</h1>
+  </section>
+  <section id="sponsors" style="height: 1000px">
+    <h1>Sponsors</h1>
+  </section>
+  <section id="contact" style="height: 1000px">
+    <h1>Contact</h1>
+  </section>
 </body>
 </html>
