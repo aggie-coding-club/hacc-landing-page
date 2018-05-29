@@ -1,6 +1,8 @@
+@import url(“https://use.typekit.net/tqy7zfe.css“);
+
 html, body{
     overflow-x: hidden;
-    font-family: tk-bd-viewmaster, sans-serif;
+    font-family: "bd-viewmaster", sans-serif;
 }
 
 .alt{
