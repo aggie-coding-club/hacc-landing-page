@@ -1,55 +1,3 @@
-@keyframes revealLeftToRight1 {
-    0%   { max-width: 0%; }
-    100% { max-width: 1200px; }
-}
-@keyframes revealLeftToRight2 {
-    0%   { max-width: 0%; padding-right: 30px;}
-    100% { max-width: 970px; padding-right: 30px; }
-}
-@keyframes revealLeftToRight3 {
-    0%   { max-width: 0%; padding-right: 30px; }
-    100% { max-width: 890px; padding-right: 30px; }
-}
-
-@keyframes revealLeftToRight1Medium{
-    0%   { max-width: 0%; }
-    100% { max-width: 800px; }
-}
-@keyframes revealLeftToRight2Medium{
-    0%   { max-width: 0%; padding-right: 30px;}
-    100% { max-width: 600px; padding-right: 30px; }
-}
-@keyframes revealLeftToRight3Medium{
-    0%   { max-width: 0%; padding-right: 30px; }
-    100% { max-width: 400px; padding-right: 30px; }
-}
-
-@keyframes revealLeftToRight1Small{
-    0%   { max-width: 0%; }
-    100% { max-width: 500px; }
-}
-@keyframes revealLeftToRight2Small{
-    0%   { max-width: 0%; padding-right: 30px;}
-    100% { max-width: 300px; padding-right: 30px; }
-}
-@keyframes revealLeftToRight3Small{
-    0%   { max-width: 0%; padding-right: 30px; }
-    100% { max-width: 200px; padding-right: 30px; }
-}
-
-@keyframes revealLeftToRight1ExtraSmall{
-    0%   { max-width: 0%; }
-    100% { max-width: 300px; }
-}
-@keyframes revealLeftToRight2ExtraSmall{
-    0%   { max-width: 0%; padding-right: 30px;}
-    100% { max-width: 200px; padding-right: 30px; }
-}
-@keyframes revealLeftToRight3ExtraSmall{
-    0%   { max-width: 0%; padding-right: 30px; }
-    100% { max-width: 100px; padding-right: 30px; }
-}
-
 .whole-page{
     position: relative;
     width: 100%;
@@ -134,9 +82,6 @@
     }
     #right-nav{
         display: none;
-    }
-    #hamburger{
-
     }
 }
 
