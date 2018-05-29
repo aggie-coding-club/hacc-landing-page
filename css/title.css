@@ -79,7 +79,7 @@
     opacity: 0;
     animation-delay: 1s;
 }
-.right-nav{
+#right-nav{
     position: fixed;
     right: 0px;
     display: inline-block;
@@ -123,5 +123,20 @@
 
 #logo-title{
     margin-bottom: 40px;
+    color: #082f40;
+}
+
+@media(max-width: 700px){
+    #logo-container{
+        width: 100%;
+        right: auto;
+        top: 150px;
+    }
+    #right-nav{
+        display: none;
+    }
+    #hamburger{
+
+    }
 }
 
