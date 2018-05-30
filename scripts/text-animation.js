@@ -1,11 +1,18 @@
 $(function(){
-  var waypoint = new Waypoint({
+  new Waypoint({
     element: document.getElementById('about'),
     handler: function(direction) {
       moveLetters('.ml14');
     },
     offset: '110%'
-  })
+  });
+  new Waypoint({
+    element: document.getElementById('schedule'),
+    handler: function(direction) {
+      moveLetters('.ml15');
+    },
+    offset: '110%'
+  });
 
 });
 
