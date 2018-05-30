@@ -58,6 +58,7 @@
     background-color: #2dbfc7;
     color: white;
     font-size: 2rem;
+    font-weight: lighter;
     padding: 0px;
     height: 40px;
     width:  220px;
@@ -112,10 +113,6 @@
     #right-nav{
         width: 100%;
         text-align: center;
-    }
-
-    #logo-title{
-        color: white;
     }
     .nav-items{
         margin: 10px;

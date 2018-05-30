@@ -10,13 +10,19 @@
     font-style:normal;font-weight:400;
 }
 
+@font-face {
+    font-family:"myriad-pro";
+    src:url("https://use.typekit.net/af/6d5542/00000000000000000001709a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/6d5542/00000000000000000001709a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/6d5542/00000000000000000001709a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
 html, body{
     overflow-x: hidden;
     font-family: "bd-viewmaster", sans-serif;
 }
 
 .alt{
-    font-family: 'Zilla Slab', serif;
+    font-family: 'myriad-pro', serif;
 }
 
 @keyframes fadeInUp {
