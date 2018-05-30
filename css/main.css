@@ -56,7 +56,6 @@ section{
     top: 90px;
     margin: 0px;
     font-size: 30rem;
-    opacity: 0.5;
 }
 
 .ml14 {
@@ -85,4 +84,5 @@ section{
   
   .ml14 .letter {
     display: inline-block;
+    opacity: 0;
   }
