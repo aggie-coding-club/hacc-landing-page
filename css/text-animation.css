@@ -1,4 +1,4 @@
-.ml14, .ml15 {
+.ml14, .ml15, .ml16, .ml17, .ml18 {
     font-weight: 200;
   }
   
@@ -18,7 +18,7 @@
     width: 100%;
     background-color: black;
     transform-origin: 100% 100%;
-    bottom: 130px;
+    bottom: 80px;
   }
   
   .letter {

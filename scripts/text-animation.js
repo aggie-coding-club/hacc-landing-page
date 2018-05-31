@@ -1,18 +1,16 @@
 $(function(){
-  new Waypoint({
-    element: document.getElementById('about'),
-    handler: function(direction) {
-      moveLetters('.ml14');
-    },
-    offset: '110%'
-  });
-  new Waypoint({
-    element: document.getElementById('schedule'),
-    handler: function(direction) {
-      moveLetters('.ml15');
-    },
-    offset: '110%'
-  });
+  const waypointDict = {'about': '.ml14', 'schedule': '.ml15', 'faq': '.ml16', 'sponsors': '.ml17', 'contact': '.ml18'};
+
+  //Move through each element of waypoint to reduce redundancy
+  for (let key of Object.keys(waypointDict)){
+    new Waypoint({
+      element: document.getElementById(key),
+      handler: function(direction) {
+        moveLetters(waypointDict[key]);
+      },
+      offset: '110%'
+    });
+  }
 
 });
 
