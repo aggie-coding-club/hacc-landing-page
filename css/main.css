@@ -52,7 +52,7 @@ section{
 .left-align-text{
     transform: rotate(-90deg);
     position: absolute;
-    left: -180px;
+    left: -190px;
     top: 90px;
     margin: 0px;
     font-size: 20rem;

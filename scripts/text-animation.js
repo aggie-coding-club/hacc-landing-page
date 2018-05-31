@@ -8,7 +8,7 @@ $(function(){
       handler: function(direction) {
         moveLetters(waypointDict[key]);
       },
-      offset: '110%'
+      offset: '100%'
     });
   }
 
