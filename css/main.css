@@ -189,4 +189,10 @@ section{
         padding-left: 30px;
         padding-right: 90px;
     }
+    #sponsor-container{
+        margin-left: 70px;
+    }
+    .sponsor-logo{
+        height: 30px;
+    }
 }
