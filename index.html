@@ -13,11 +13,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Righteous|Zilla+Slab|Bungee+Inline" rel="stylesheet"> 
-  <link rel=“stylesheet” href=“https://use.typekit.net/ggz1gsu.css“>
-
   <!-- ICONS -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
   <!-- CSS
@@ -45,7 +40,7 @@
 <body>
 
   <div id="whole-page">
-    <!--<button id="register" class="alt">Register Here</button>
+    <!--<div id="register" class="alt">Register Here</div>
     <h1 id="title">hacc.</h1>
     <img id="logo" src="images/logo.svg">-->
     <nav id="menu">
@@ -74,6 +69,8 @@
       </span>
     </h1>
   </section>
+  <div id="faq" style="height: 500px; background-color: rgba(0,0,0,0.05)">
+  </div>
   <section id="schedule" style="margin-bottom: 100px;">
     <h1 class="ml15 left-align-text"> 
       <span class="text-wrapper">
@@ -154,7 +151,7 @@
       </div>
     </div>
   </section>
-  <section id="faq" style="height: 1000px">
+  <section id="faq" style="padding-bottom: 80px; background-color: rgba(0,0,0,0.05)">
     <h1 class="ml16 right-align-text"> 
       <span class="text-wrapper">
         <span class="letters">FAQ</span>
@@ -162,20 +159,26 @@
       </span>
     </h1>
     <div class="accordion-container">
-      <button class="accordion">This is some sort of example question?</button>
+      <div class="accordion">This is some sort of example question?<i class="fas fa-angle-down accordion-icon"></i></div>
       <div class="panel">
         <p>This is some sort of answer to the question.</p>
-      </div>
-      
-      <button class="accordion">Section 2</button>
+      </div>   
+      <div class="accordion">Section 2<i class="fas fa-angle-down accordion-icon"></i></div>
       <div class="panel">
         <p>Lorem ipsum...</p>
       </div>
-      
-      <button class="accordion">Section 3</button>
+      <div class="accordion">This is some sort of an example question<i class="fas fa-angle-down accordion-icon"></i></div>
       <div class="panel">
         <p>Lorem ipsum...</p>
       </div> 
+      <div class="accordion">Section 2<i class="fas fa-angle-down accordion-icon"></i></div>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+      <div class="accordion">Section 2<i class="fas fa-angle-down accordion-icon"></i></div>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
     </div>
   </section>
   <section id="sponsors" style="height: 1000px">
@@ -185,6 +188,17 @@
         <span class="line"></span>
       </span>
     </h1>
+    <div id="sponsor-container">
+      <div class="sponsor-row">
+        <img src="images/example_logo.png" class="sponsor-logo">
+        <img src="images/example_logo.png" class="sponsor-logo">
+      </div>
+      <div class="sponsor-row">
+        <img src="images/example_logo.png" class="sponsor-logo">
+        <img src="images/example_logo.png" class="sponsor-logo">
+        <img src="images/example_logo.png" class="sponsor-logo">
+      </div>
+    </div>
   </section>
   <section id="contact" style="height: 1000px">
     <h1 class="ml18 right-align-text"> 
