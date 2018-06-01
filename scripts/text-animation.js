@@ -1,15 +1,12 @@
 $(function(){
   const waypointDict = {'about': '.ml14', 'schedule': '.ml15', 'faq': '.ml16', 'sponsors': '.ml17', 'contact': '.ml18'};
-  const movedDict = [];
 
   //Move through each element of waypoint to reduce redundancy
   for (let key of Object.keys(waypointDict)){
     new Waypoint({
       element: document.getElementById(key),
       handler: function(direction) {
-        if (movedDict.indexOf(key) < 0) //checking if the element is already in the list
-          moveLetters(waypointDict[key]);
-        movedDict.push(key); //making sure that things only animated once, pushing them to list
+        moveLetters(waypointDict[key]);
       },
       offset: '100%'
     });

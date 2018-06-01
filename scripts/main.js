@@ -15,7 +15,7 @@ $(function(){
     }
 
     $( ".accordion" ).click(function() {
-        if (  $(this).children('.accordion-icon').css( "transform" ) == 'none' ){
+        if (  $(this).children('.accordion-icon').css("transform") == 'none' ){
             $(this).children('.accordion-icon').css("transform","rotate(180deg)");
         } else {
             $(this).children('.accordion-icon').css("transform","" );
