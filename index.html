@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="css/title.css">
   <link rel="stylesheet" href="css/main.css?version=2">
   <link rel="stylesheet" href="css/text-animation.css">
+  <link rel="stylesheet" href="css/spinkit.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -35,14 +36,29 @@
   <script src="scripts/main.js"></script>
   <script src="scripts/text-animation.js"></script>
   <script src="scripts/smooth-scroll.js"></script>
+  <script>
+      $(window).on('load', function() {
+        $("#cover").hide();
+     });
+  </script>
   
 </head>
 <body>
 
+    <div id="cover">
+      <div class="sk-cube-grid">
+        <div class="sk-cube sk-cube1"></div>
+        <div class="sk-cube sk-cube2"></div>
+        <div class="sk-cube sk-cube3"></div>
+        <div class="sk-cube sk-cube4"></div>
+        <div class="sk-cube sk-cube5"></div>
+        <div class="sk-cube sk-cube6"></div>
+        <div class="sk-cube sk-cube7"></div>
+        <div class="sk-cube sk-cube8"></div>
+        <div class="sk-cube sk-cube9"></div>
+      </div>
+    </div>
   <div id="whole-page">
-    <!--<div id="register" class="alt">Register Here</div>
-    <h1 id="title">hacc.</h1>
-    <img id="logo" src="images/logo.svg">-->
     <nav id="menu">
       <div id="left-nav">
       <p class="nav-items"><a href="#whole-page">Howdy Hack</a></p>
@@ -231,7 +247,7 @@
       </span>
     </h1>
   </section>
-  <footer style="background-color: #082f40; color: white; text-align: center; position: relative; z-index: 1000">
+  <footer style="background-color: #082f40; color: white; text-align: center; position: relative; z-index: 10">
     <p class="alt" style="font-size: 1.25rem; margin: 0px; padding: 10px;">Designed by <a href="https://www.jinnisdesign.com">JInnisDesign</a> &copy; 2018. All Rights Reserved.</p>
   </footer>
 </body>
