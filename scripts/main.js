@@ -21,4 +21,5 @@ $(function(){
             $(this).children('.accordion-icon').css("transform","" );
         }
     });
+      
 })
