@@ -57,6 +57,36 @@ section{
     position: relative;
 }
 
+.icon-container{
+    display: flex;
+    padding-right: 200px;
+}
+
+.icon-box{
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px dotted rgba(0,0,0,0.1);
+    position: relative;
+    margin-top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon-circle svg{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7rem;
+}
+
 .schedule-container{
     display: flex;
     flex-wrap: wrap;
