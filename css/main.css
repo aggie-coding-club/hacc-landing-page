@@ -92,11 +92,10 @@ section{
 
 #content-container{
     flex: 2 1 0;
-    padding-right: 200px;
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding: 50px;
     margin: 0px;
+    position: relative;
+    z-index: 10;
 }
 
 .schedule-card{
@@ -224,7 +223,7 @@ section{
 }
 
 @media(max-width: 700px){
-    .card-container{
+    .schedule-container{
         margin-left: 80px;
         margin-right: 20px;
     }
@@ -264,5 +263,23 @@ section{
         width: 100%;
         height: auto;
         margin: 20px 0px;
+    }
+    .contact-outer-container{
+        display: inline;
+    }
+    #map, #content-container{
+        width: 100%;
+    }
+
+    #map{
+        height: 500px;
+    }
+    #content-container{
+        padding-right: 200px;
+        width: calc(100% - 150px);
+    }
+    #contact-spiral{
+        height: calc(100% - 500px) !important;
+        right: -200px !important;
     }
 }
