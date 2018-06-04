@@ -136,5 +136,14 @@
     #left-nav{
         display: none;
     }
+    #menu-register{
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        border-radius: 0px;
+        animation: none;
+        opacity: 1;
+        border-top: 2px solid white;
+    }
 }
 

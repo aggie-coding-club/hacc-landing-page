@@ -295,4 +295,7 @@ section{
         top: 510px;
         right: -200px !important;
     }
+    footer{
+        margin-bottom: 40px;
+    }
 }
