@@ -223,6 +223,18 @@ section{
     height: 50px;
 }
 
+.contact-info-row{
+    position: relative;
+}
+
+.contact-info-row svg, .contact-info-row p{
+    font-size: 3rem;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+
+}
+
 @media(max-width: 700px){
     .schedule-container{
         margin-left: 80px;
@@ -280,7 +292,7 @@ section{
     }
     #contact-spiral{
         height: calc(100% - 500px) !important;
-        top: 500px;
+        top: 510px;
         right: -200px !important;
     }
 }
