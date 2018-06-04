@@ -93,6 +93,7 @@ section{
 #content-container{
     flex: 2 1 0;
     padding: 50px;
+    padding-right: 200px;
     margin: 0px;
     position: relative;
     z-index: 10;
@@ -260,9 +261,8 @@ section{
         margin: 0px;
     }
     .sponsor-logo{
-        width: 100%;
-        height: auto;
-        margin: 20px 0px;
+        max-width: 100%;
+        margin: 30px 0px;
     }
     .contact-outer-container{
         display: inline;
@@ -275,11 +275,12 @@ section{
         height: 500px;
     }
     #content-container{
-        padding-right: 200px;
-        width: calc(100% - 150px);
+        padding: 50px;
+        width: calc(100% - 100px);
     }
     #contact-spiral{
         height: calc(100% - 500px) !important;
+        top: 500px;
         right: -200px !important;
     }
 }
