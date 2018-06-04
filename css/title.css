@@ -144,6 +144,8 @@
         animation: none;
         opacity: 1;
         border-top: 2px solid white;
+        height: 50px;
+        font-size: 3rem;
     }
 }
 
