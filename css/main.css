@@ -60,6 +60,7 @@ section{
 .icon-container{
     display: flex;
     padding-right: 200px;
+    padding-bottom: 100px;
 }
 
 .icon-box{
@@ -67,7 +68,6 @@ section{
     flex-basis: 0;
     align-items: center;
     text-align: center;
-    margin-bottom: 100px;
 }
 
 .icon-circle{
@@ -87,6 +87,13 @@ section{
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 7rem;
+}
+.about-container{
+    display: flex;
+}
+.about-content{
+    flex: 1 0 0;
+    height: 400px;
 }
 
 .schedule-container{
@@ -264,10 +271,23 @@ section{
     display: inline-block;
     margin: 5px;
     vertical-align: middle;
-
 }
 
 @media(max-width: 700px){
+    .icon-container{
+        display: inline-block;
+        padding-right: 80px;
+    }
+    .icon-box{
+        width: calc(100% - 60px);
+        padding: 30px;
+    }
+    .about-container{
+        display: inline;
+    }
+    .about-content{
+        width: 100%;
+    }
     .schedule-container{
         margin-left: 80px;
         margin-right: 20px;

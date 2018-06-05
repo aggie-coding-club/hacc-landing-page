@@ -30,6 +30,7 @@ $(function(){
                 setTimeout(function(){$("#menu-register").hide()}, 500);
             }
             else{
+                $("#menu-register").show();
                 $("#menu-register").addClass("visible");
             }
         },
