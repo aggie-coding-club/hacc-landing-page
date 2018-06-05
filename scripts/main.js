@@ -21,5 +21,19 @@ $(function(){
             $(this).children('.accordion-icon').css("transform","" );
         }
     });
+
+    new Waypoint({
+        element: document.getElementById('about'),
+        handler: function(direction) {
+            if (direction === "up"){
+                $("#menu-register").removeClass("visible");
+                setTimeout(function(){$("#menu-register").hide()}, 500);
+            }
+            else{
+                $("#menu-register").addClass("visible");
+            }
+        },
+        offset: '100%'
+    });
       
 })

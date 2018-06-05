@@ -79,6 +79,14 @@
     right: 30px;
     bottom: 30px;
     z-index: 30;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+}
+
+#menu-register.visible{
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 #logo-container{
