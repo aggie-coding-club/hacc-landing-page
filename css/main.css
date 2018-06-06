@@ -138,6 +138,12 @@ section{
     z-index: 10;
 }
 
+/*To be deleted after schedule goes up*/
+#schedule{
+    margin-bottom: 100px;
+    height: 650px;
+}
+
 .schedule-card{
     width: calc(50% - 40px);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -145,6 +151,26 @@ section{
     display: inline-block;
     flex-grow: 1;
     margin: 20px;
+}
+
+/*To be deleted after schedule goes up*/
+.schedule-filler{
+    position: relative; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 9rem; 
+    text-align: center; 
+    line-height: 70px; 
+}
+
+/*To be deleted after schedule goes up*/
+.schedule-container h1{
+    padding-top: 150px;
+}
+
+.schedule-container p{
+    line-height: 40px;
+    font-size: 7rem;
 }
 
 .circle-border{
@@ -349,5 +375,20 @@ section{
     }
     footer{
         margin-bottom: 50px;
+    }
+
+    /*To be deleted after schedule goes up*/
+    .schedule-container h1{
+        font-size: 6rem;
+        line-height: 50px;
+        padding-top: 50px;
+    }
+    .schedule-container p{
+        font-size: 4rem;
+        line-height: 20px;
+    }
+
+    #schedule{
+        height: 400px;
     }
 }
