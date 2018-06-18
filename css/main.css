@@ -64,21 +64,27 @@ section{
 }
 
 .icon-box{
-    flex-grow: 1;
-    flex-basis: 0;
+    color: white;
+    flex: 1 0 0;
+    margin: 50px;
     align-items: center;
     text-align: center;
+    background-color: #2dbfc7;
+    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+    -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+    box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+    height: 500px;
 }
 
 .icon-circle{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
-    border: 4px dotted rgba(0,0,0,0.1);
+    border: 3px solid white;
     position: relative;
-    margin-top: 100px;
     left: 50%;
     transform: translateX(-50%);
+    margin-top: 50px;
 }
 
 .icon-circle svg{
@@ -86,14 +92,35 @@ section{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 7rem;
+    font-size: 5rem;
 }
+
+#about-heading{
+    padding: 50px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+#about-heading h1{
+    font-size: 10rem;
+    font-weight: 500;
+    line-height: 65px;
+}
+
+#about-heading p{
+    opacity: 0.5;
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
 .about-container{
     display: flex;
+    padding-top: 100px;
 }
 .about-content{
     flex: 1 0 0;
     height: 400px;
+    padding: 20px;
 }
 
 .schedule-container{
@@ -107,6 +134,15 @@ section{
 .contact-outer-container{
     display: flex;
     text-align: center;
+}
+
+#pic{
+    background: url(../images/eh-csce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: center; 
+    opacity: 0.9;
 }
 
 #map{
