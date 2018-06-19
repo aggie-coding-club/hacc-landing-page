@@ -1,7 +1,6 @@
 .icon-container{
     display: flex;
     padding-right: 200px;
-    padding-bottom: 100px;
 }
 
 .icon-box{
@@ -54,29 +53,20 @@
     font-size: 2rem;
 }
 
-.about-container{
-    display: flex;
-    padding-top: 100px;
-}
-.about-content{
-    flex: 1 0 0;
-    height: 400px;
-    padding: 20px;
-}
-
 @media(max-width: 700px){
     .icon-container{
         display: inline-block;
-        padding-right: 80px;
+        padding-right: 50px;
+        width: calc(100% - 80px);
     }
     .icon-box{
-        width: calc(100% - 60px);
         padding: 30px;
+        flex: none;
+        margin-right: 0px;
+        margin-left: 50px;
     }
-    .about-container{
-        display: inline;
-    }
-    .about-content{
-        width: 100%;
+    #about-heading{
+        padding-right: 80px;
+
     }
 }
