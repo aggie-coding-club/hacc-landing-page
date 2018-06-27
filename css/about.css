@@ -10,6 +10,10 @@
     text-align: center;
 }
 
+.icon-box h1{
+    line-height: 35px;
+}
+
 .icon-circle{
     height: 100px;
     width: 100px;
@@ -36,15 +40,23 @@
 }
 
 #about-heading h1{
-    font-size: 10rem;
-    font-weight: 500;
-    line-height: 65px;
+    font-size: 20rem;
+    line-height: 120px;
+    font-weight: 600;
+    color: #2dbfc7;
 }
 
 #about-heading p{
     opacity: 0.5;
     margin-left: 10px;
     font-size: 2rem;
+}
+
+#about-heading .reasons{
+    font-size: 5rem; 
+    margin: 0px; 
+    line-height: 35px;
+    margin-top: 100px;
 }
 
 @media(max-width: 700px){
@@ -61,6 +73,14 @@
     }
     #about-heading{
         padding-right: 80px;
+    }
 
+    #about-heading h1{
+        font-size: 8rem;
+        line-height: 60px;
+    }
+    
+    #about-heading p{
+        font-size: 1.75rem;
     }
 }
