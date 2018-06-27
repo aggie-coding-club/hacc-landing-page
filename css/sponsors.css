@@ -27,4 +27,8 @@
         max-width: 100%;
         margin: 30px 0px;
     }
+
+    .sponsor-filler{
+        padding-bottom: 0px !important;
+    }
 }
