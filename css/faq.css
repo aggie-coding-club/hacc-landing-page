@@ -18,9 +18,10 @@
     padding: 15px;
     padding-left: 15px;
     padding-right: 70px;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: lighter;
     border-radius: 6px;
-    line-height: 18px;
+    line-height: 30px;
 }
 
 .accordion-icon{
