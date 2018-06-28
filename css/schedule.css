@@ -25,18 +25,18 @@
 .schedule-filler{
     position: relative; 
     left: 50%; 
-    transform: translateX(-50%); 
-    font-size: 9rem; 
+    transform: translateX(-50%);
     text-align: center; 
     line-height: 70px; 
 }
 
 /*To be deleted after schedule goes up*/
-.schedule-container h1{
+.schedule-filler h1{
     padding-top: 150px;
+    font-size: 9rem; 
 }
 
-.schedule-container p{
+.schedule-filler p{
     line-height: 40px;
     font-size: 7rem;
 }
@@ -81,14 +81,14 @@
     }
 
     /*To be deleted after schedule goes up*/
-    .schedule-container h1{
+    .schedule-filler h1{
         font-size: 6rem;
         line-height: 50px;
         padding-top: 50px;
         overflow-wrap: break-word;
         word-wrap: break-word;
     }
-    .schedule-container p{
+    .schedule-filler p{
         font-size: 4rem;
         line-height: 30px;
         overflow-wrap: break-word;
