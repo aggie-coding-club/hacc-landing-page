@@ -13,41 +13,57 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Righteous|Zilla+Slab|Bungee+Inline" rel="stylesheet"> 
-  <link rel=“stylesheet” href=“https://use.typekit.net/ggz1gsu.css“>
-
   <!-- ICONS -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-  <!-- CSS
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">  <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/title.css">
   <link rel="stylesheet" href="css/main.css?version=2">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/faq.css">
+  <link rel="stylesheet" href="css/schedule.css">
+  <link rel="stylesheet" href="css/sponsors.css">
   <link rel="stylesheet" href="css/text-animation.css">
+  <link rel="stylesheet" href="css/spinkit.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.ico">
   
   <!--Outside Scripts-->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
   <script src="bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
   <script src="scripts/main.js"></script>
   <script src="scripts/text-animation.js"></script>
   <script src="scripts/smooth-scroll.js"></script>
+  <script>
+      $(window).on('load', function() {
+        $("#cover").hide();
+     });
+  </script>
   
 </head>
 <body>
 
+    <!--<button id="menu-register">Register Here</button>-->
+    <div id="cover">
+      <div class="sk-cube-grid">
+        <div class="sk-cube sk-cube1"></div>
+        <div class="sk-cube sk-cube2"></div>
+        <div class="sk-cube sk-cube3"></div>
+        <div class="sk-cube sk-cube4"></div>
+        <div class="sk-cube sk-cube5"></div>
+        <div class="sk-cube sk-cube6"></div>
+        <div class="sk-cube sk-cube7"></div>
+        <div class="sk-cube sk-cube8"></div>
+        <div class="sk-cube sk-cube9"></div>
+      </div>
+    </div>
   <div id="whole-page">
-    <!--<button id="register" class="alt">Register Here</button>
-    <h1 id="title">hacc.</h1>
-    <img id="logo" src="images/logo.svg">-->
     <nav id="menu">
       <div id="left-nav">
       <p class="nav-items"><a href="#whole-page">Howdy Hack</a></p>
@@ -63,25 +79,64 @@
     <div id="logo-container">
       <img id="logo" src="images/logo.svg">
       <h1 id="logo-title">Howdy Hack</h1>
-      <button id="register" class="alt">Register Here</button>
+      <!--<button id="register" class="alt">Register Here</button>-->
+      <button id="register" class="alt" style="width: 300px">Registration Will Open Soon</button>
+      <p style="font-size: 2.5rem">September 15 - September 16</p>
     </div>
   </div>
-  <section id="about" style="height: 1000px">
+  <section id="about" style="padding-bottom: 100px;">
     <h1 class="ml14 right-align-text">
       <span class="text-wrapper">
         <span class="letters">About</span>
         <span class="line"></span>
       </span>
     </h1>
+    <div id="about-heading">
+      <h1>Let's Write Some <b>Redass</b> Code</h1>
+      <p class="alt overview" style="opacity: 1">Howdy Hack is a 24 hour coding marathon, from and for innovative hackers at Texas A&M University. Howdy Hackers will brainstorm, build, and break, before they’ll finally bring a product to a panel of judges for evaluation and hopefully win some cool prizes. Beyond hacking, Howdy Hack is about connecting creative and talented hackers at TAMU with tech companies they are interested in. We want to give hackers the opportunity to show off their capabilities to an audience who will listen. Howdy Hack offers a chance to meet recruiters from a diverse set of companies to ensure there’s a company for everybody, as well as workshops and social activities to make the most of the event. </p>
+      <p class="reasons">We could spend all day listing reasons to come, but here's a few</p>
+    </div>
+    <div class="icon-container">
+      <div class="icon-box">
+        <div class="icon-circle">
+          <i class="fas fa-wrench fa-3x"></i>
+        </div>
+        <h1>Workshops</h1>
+      </div>
+      <div class="icon-box">
+        <div class="icon-circle">
+          <i class="fas fa-tshirt fa-3x"></i>
+        </div>
+        <h1>Free Swag</h1>
+      </div>
+      <div class="icon-box">
+        <div class="icon-circle">
+          <i class="fas fa-utensils fa-3x"></i>
+        </div>
+        <h1>Free Food</h1>
+      </div>
+      <div class="icon-box">
+        <div class="icon-circle">
+          <i class="fas fa-gift fa-3x"></i>
+        </div>
+        <h1>Awesome Prizes</h1>
+      </div>
+    </div>
+    </div>
   </section>
-  <section id="schedule" style="margin-bottom: 100px;">
+  <section id="schedule">
     <h1 class="ml15 left-align-text"> 
       <span class="text-wrapper">
         <span class="letters">Schedule</span>
         <span class="line"></span>
       </span>
     </h1>
-    <div class="card-container">
+    <div class="schedule-container">
+      <div class="schedule-filler">
+        <h1>Winter is Coming...and So Is Our Schedule</h1>
+        <p>Check back here soon</p>
+      </div>
+      <!--
       <div class="schedule-card" style="background-color: #2dbfc7">
         <div class="card-title">Hackathon</div>
         <div class="card-line-items" style="background-color: #28ACB3">
@@ -151,48 +206,128 @@
           <div class="line-item-title">9:00</div>
           <div class="line-item-content">Example Text</div>
         </div>
-      </div>
+      </div>-->
     </div>
   </section>
-  <section id="faq" style="height: 1000px">
+  <section id="faq" style="padding-bottom: 80px; background-color: #082f40; margin-bottom: 30px; color: white;">
     <h1 class="ml16 right-align-text"> 
       <span class="text-wrapper">
         <span class="letters">FAQ</span>
-        <span class="line"></span>
+        <span class="line" style="background-color: white"></span>
       </span>
     </h1>
+    <!--<img src="images/faq.svg" style="position: absolute; height: 100%; transform: rotate(180deg); right: 0px;">-->
     <div class="accordion-container">
-      <button class="accordion">This is some sort of example question?</button>
+      <div class="accordion">What if I've never attended a hackathon before?<i class="fas fa-angle-down accordion-icon"></i></div>
       <div class="panel">
-        <p>This is some sort of answer to the question.</p>
+        <p>Whether you're a seasoned veteran or a fresh newbie, people of all skill sets are welcome!</p>
+      </div>   
+      <div class="accordion">Will there be parking and travel reimbursement?<i class="fas fa-angle-down accordion-icon"></i></div>
+      <div class="panel">
+        <p>This is our first year as a hackathon, which means unfortunately we don't have the resources to pay for travel reimbursement or parking.</p>
       </div>
-      
-      <button class="accordion">Section 2</button>
+      <div class="accordion">How do teams get formed?<i class="fas fa-angle-down accordion-icon"></i></div>
       <div class="panel">
-        <p>Lorem ipsum...</p>
-      </div>
-      
-      <button class="accordion">Section 3</button>
-      <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p>You're welcome to come with a team if you have an idea, but if you don't, we'll be doing team-forming activities at the beginning of the event. Coming without a team is a great way to learn new skills and meet new people!</p>
       </div> 
+      <div class="accordion">Can I work on something I've started?<i class="fas fa-angle-down accordion-icon"></i></div>
+      <div class="panel">
+        <p>No. You can play out your work beforehand, but please don't work on a project during the event that you started before the event.</p>
+      </div>
+      <div class="accordion">How do I sign up?<i class="fas fa-angle-down accordion-icon"></i></div>
+      <div class="panel">
+        <p>Registration will open soon!</p>
+      </div>
+      <div class="accordion">What should I bring?<i class="fas fa-angle-down accordion-icon"></i></div>
+      <div class="panel">
+        <p>Your computer, your creativity, some hygienics if you're staying overnight, and comfortable clothes!</p>
+      </div>   
+      <div class="accordion">What shouldn't I bring?<i class="fas fa-angle-down accordion-icon"></i></div>
+      <div class="panel">
+        <p>Please don't bring drugs, alcohol, or anything else.</p>
+      </div>
+      <div class="accordion">Will hardware be provided?<i class="fas fa-angle-down accordion-icon"></i></div>
+      <div class="panel">
+        <p>Unfortunately, no. All the hardware you plan to need for your project will have to be provided by yourself.</p>
+      </div> 
+      <div class="accordion">What is your code of conduct?<i class="fas fa-angle-down accordion-icon"></i></div>
+      <div class="panel">
+        <p>See the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct</a></p>
+      </div>
+      <div class="accordion">I have another question, but I don't see it here.<i class="fas fa-angle-down accordion-icon"></i></div>
+      <div class="panel">
+        <p>Contact us! We've got a <a>Twitter</a> and here's our email: <a href="mailto:howdyhack@gmail.com">howdyhack@gmail.com</a></p>
+      </div>
     </div>
   </section>
-  <section id="sponsors" style="height: 1000px">
+  <section id="sponsors" class="sponsor-filler" style="margin-bottom: 200px; padding-bottom: 180px">
     <h1 class="ml17 left-align-text"> 
       <span class="text-wrapper">
         <span class="letters">Sponsors</span>
         <span class="line"></span>
       </span>
     </h1>
+    <!--
+    <div id="sponsor-container">
+      <div class="sponsor-row">
+        <img src="images/example_logo.png" class="sponsor-logo">
+        <img src="images/example_logo.png" class="sponsor-logo">
+      </div>
+      <div class="sponsor-row">
+        <img src="images/example_logo.png" class="sponsor-logo">
+        <img src="images/example_logo.png" class="sponsor-logo">
+        <img src="images/example_logo.png" class="sponsor-logo">
+      </div>
+      <div class="sponsor-row">
+        <img src="images/example_logo.png" class="sponsor-logo">
+        <img src="images/example_logo.png" class="sponsor-logo">
+      </div>
+    </div>
+    -->
+    <div class="schedule-container">
+      <div class="schedule-filler">
+        <h1>Interested In Becoming a Sponsor?</h1>
+        <p>Contact Us at <a href="mailto:howdyhack@gmail.com">howdyhack<wbr>@gmail.com</a></p>
+      </div>
+    </div>
   </section>
-  <section id="contact" style="height: 1000px">
-    <h1 class="ml18 right-align-text"> 
+  <section id="contact" style="background-color: #ebe9d8">
+    <h1 class="ml18 right-align-text" style="z-index: 10"> 
       <span class="text-wrapper">
         <span class="letters">Contact</span>
         <span class="line"></span>
       </span>
     </h1>
+    <!--<div style="border-top: 10px solid #082f40; position: relative; z-index: 10"></div>-->
+    <div class="contact-outer-container">
+      <div id="map"><i id="map-pin" class="fas fa-map-marker-alt"></i></div>
+      <div id="content-container">
+        <img id="small-logo" src="images/logo.svg" class="contact-item">
+        <div class="contact-item">
+          <h1 style="margin: 0px; font-size: 3.5rem; line-height: 30px; font-weight: 400; letter-spacing: 5px">HOWDY HACK</h1>
+          <p style="margin: 0px">A part of Aggie Coding Club</p>
+        </div>
+        <h3 style="line-height: 20px; margin: 0px; margin-top: 20px" class="contact-item">Address</h3>
+        <div class="contact-item">
+          <p class="alt" style="margin: 0px; margin-top: 10px">Emerging Technologies Building</p>
+          <p class="alt" style="margin: 0px">Room #2005</p>
+          <p class="alt" style="margin: 0px">101 Bizzell St.</p>
+          <p class="alt" style="margin: 0px">College Station, TX 77843</p>
+        </div>
+        <h3 style="line-height: 20px; margin: 0px; margin-top: 40px; margin-bottom: 20px" class="contact-item">Folow Us</h3>
+        <div class="contact-info-row contact-item">
+          <i class="fab fa-twitter" style="color: #082f40"></i>
+          <p class="alt" style="font-size: 2rem">@howdyhack</p>
+        </div>
+        <div class="contact-info-row contact-item">
+          <i class="fas fa-envelope" style="color: #082f40"></i>
+          <p class="alt" style="font-size: 2rem">howdyhack@gmail.com</p>
+        </div>
+      </div>
+    </div>
   </section>
+  <footer style="background-color: #082f40; color: white; text-align: center; position: relative; z-index: 10;">
+    <p class="alt" style="font-size: 1.25rem; margin: 0px; padding: 10px;">Designed by <a href="https://www.jinnisdesign.com">JInnis Design</a> &copy; 2018. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>

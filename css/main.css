@@ -25,6 +25,14 @@ html, body{
     font-family: 'myriad-pro', serif;
 }
 
+#cover{
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+
 @keyframes fadeInUp {
     from { 
         opacity: 0;
@@ -49,94 +57,8 @@ section{
     position: relative;
 }
 
-.card-container{
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 50px;
-    margin-left: 180px; 
-    margin-right: 40px;
-}
-
-.schedule-card{
-    width: calc(50% - 40px);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    display: inline-block;
-    flex-grow: 1;
-    margin: 20px;
-}
-
-.card-title{
-    width: calc(100% - 40px);
-    color: white;
-    padding: 20px;
-    font-size: 5rem;
-    text-align: center;
-}
-
-.card-line-items{
-    width: 100%;
-    display: flex;
-    font-size: 1.5rem;
-    font-family: 'myriad-pro', sans-serif;
-}
-
-.line-item-title{
-    flex-grow: 1;
-    text-align: center;
-    padding: 20px;
-    color: white;
-}
-
-.line-item-content{
-    flex-grow: 1000;
-    padding: 20px;
-    background-color: white;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-.accordion-container{
-    padding-top: 70px;
-}
-
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    width: calc(100% - 220px);
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    margin-right: 180px; 
-    margin-left: 40px;
-    height: 50px;
-    font-size: 3rem;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-    background-color: #ccc;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 0px;
-    padding-right: 200px;
-    padding-left: 60px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    font-size: 2rem;
-} 
-
 @media(max-width: 700px){
-    .card-container{
-        margin-left: 80px;
-        margin-right: 20px;
-    }
-    .schedule-card{
-        width: 100%;
+    footer{
+        margin-bottom: 50px;
     }
 }
