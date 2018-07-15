@@ -1,5 +1,5 @@
 #sponsor-container{
-    margin-left: 120px;
+    margin-left: 140px;
     padding-top: 50px;
 }
 
@@ -11,6 +11,15 @@
 
 .sponsor-logo{
     height: 90px;
+}
+
+.tier-headline{
+    font-size: 7rem;
+    text-align: center;
+    font-weight: bolder;
+    color: #2dbfc7;
+    margin: 0px;
+    line-height: 50px;
 }
 
 @media(max-width: 700px){
