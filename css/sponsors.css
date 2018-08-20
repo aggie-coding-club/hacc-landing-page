@@ -4,13 +4,21 @@
 }
 
 .sponsor-row{
-    margin: 100px 0px;
+    margin: 50px 0px;
+    margin-top: 0px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .sponsor-logo{
-    height: 100px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 50px;
+    width: 200px;
+    transition: all 0.4s ease-in-out;
+    vertical-align: middle;
 }
 
 .tier-headline{
@@ -25,7 +33,7 @@
 @media(max-width: 700px){
     .tier-headline{ font-size: 5rem;}
     .sponsor-logo{
-        height: 50px;
+        width: 100px;
     }
     #sponsor-container{
         margin-left: 100px;
