@@ -33,7 +33,7 @@
   <link rel="icon" type="image/png" href="images/favicon.ico">
   
   <!--Outside Scripts-->
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="bower_components/scrollreveal/dist/scrollreveal.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
@@ -131,46 +131,67 @@
       </span>
     </h1>
     <div class="schedule-container">
-      <div class="schedule-filler">
-        <h1>Winter is Coming...and So Is Our Schedule</h1>
-        <p>Check back here soon</p>
+      <div class="schedule-card" style="background-color: #2dbfc7">
+        <!--<div class="card-title">Hackathon</div>-->
+        <div class="card-line-items" style="background-color: #28ACB3">
+          <div class="line-item-title">1:00 PM</div>
+          <div class="line-item-content">Check-In</div>
+        </div>
+        <div class="card-line-items" style="background-color: #23999F">
+          <div class="line-item-title">2:00 PM</div>
+          <div class="line-item-content">Hacking Starts</div>
+        </div>
+        <div class="card-line-items" style="background-color: #1E868B">
+          <div class="line-item-title">3:00 PM</div>
+          <div class="line-item-content">Company Workshop #1</div>
+        </div>
+        <div class="card-line-items" style="background-color: #197377">
+          <div class="line-item-title">6:00 PM</div>
+          <div class="line-item-content">Dinner</div>
+        </div>
+        <div class="card-line-items" style="background-color: #28ACB3">
+          <div class="line-item-title">7:00 PM</div>
+          <div class="line-item-content">Company Workshop #2</div>
+        </div>
+        <div class="card-line-items" style="background-color: #23999F">
+          <div class="line-item-title">9:00 PM</div>
+          <div class="line-item-content">Gaming Tournament</div>
+        </div>
+        <div class="card-line-items" style="background-color: #1E868B">
+          <div class="line-item-title">11:00 PM</div>
+          <div class="line-item-content">Cup Stacking</div>
+        </div>
+        <div class="card-line-items" style="background-color: #197377">
+          <div class="line-item-title">12:00 AM</div>
+          <div class="line-item-content">Midnight Snack</div>
+        </div>
+        <div class="card-line-items" style="background-color: #28ACB3">
+          <div class="line-item-title">8:00 AM</div>
+          <div class="line-item-content">Brunch</div>
+        </div>
+        <div class="card-line-items" style="background-color: #23999F">
+          <div class="line-item-title">11:00 AM</div>
+          <div class="line-item-content">DevPost Submission</div>
+        </div>
+        <div class="card-line-items" style="background-color: #1E868B">
+          <div class="line-item-title">12:00 PM</div>
+          <div class="line-item-content">Prep for Judging</div>
+        </div>
+        <div class="card-line-items" style="background-color: #197377">
+          <div class="line-item-title">12:30 PM</div>
+          <div class="line-item-content">Judging Starts</div>
+        </div>
+        <div class="card-line-items" style="background-color: #28ACB3">
+          <div class="line-item-title">1:30 PM</div>
+          <div class="line-item-content">Final Round</div>
+        </div>
+        <div class="card-line-items" style="background-color: #23999F">
+          <div class="line-item-title">2:15 PM</div>
+          <div class="line-item-content">Results</div>
+        </div>
+        </div>
       </div>
       <!--
-      <div class="schedule-card" style="background-color: #2dbfc7">
-        <div class="card-title">Hackathon</div>
-        <div class="card-line-items" style="background-color: #28ACB3">
-          <div class="line-item-title">9:00</div>
-          <div class="line-item-content">Example Text</div>
-        </div>
-        <div class="card-line-items" style="background-color: #23999F">
-          <div class="line-item-title">9:00</div>
-          <div class="line-item-content">Example Text</div>
-        </div>
-        <div class="card-line-items" style="background-color: #1E868B">
-          <div class="line-item-title">9:00</div>
-          <div class="line-item-content">Example Text</div>
-        </div>
-        <div class="card-line-items" style="background-color: #197377">
-          <div class="line-item-title">9:00</div>
-          <div class="line-item-content">Example Text</div>
-        </div>
-        <div class="card-line-items" style="background-color: #28ACB3">
-          <div class="line-item-title">9:00</div>
-          <div class="line-item-content">Example Text</div>
-        </div>
-        <div class="card-line-items" style="background-color: #23999F">
-          <div class="line-item-title">9:00</div>
-          <div class="line-item-content">Example Text</div>
-        </div>
-        <div class="card-line-items" style="background-color: #1E868B">
-          <div class="line-item-title">9:00</div>
-          <div class="line-item-content">Example Text</div>
-        </div>
-        <div class="card-line-items" style="background-color: #197377">
-          <div class="line-item-title">9:00</div>
-          <div class="line-item-content">Example Text</div>
-        </div>
-      </div>
       <div class="schedule-card" style="background-color: #ed535e">
         <div class="card-title">Workshops</div>
         <div class="card-line-items" style="background-color: #D54B55">

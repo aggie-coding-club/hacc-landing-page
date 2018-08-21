@@ -9,7 +9,6 @@
 /*To be deleted after schedule goes up*/
 #schedule{
     margin-bottom: 100px;
-    height: 650px;
 }
 
 .schedule-card{
@@ -58,7 +57,7 @@
 }
 
 .line-item-title{
-    flex-grow: 1;
+    width: 100px;
     text-align: center;
     padding: 20px;
     color: white;
