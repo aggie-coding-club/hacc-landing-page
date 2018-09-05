@@ -71,6 +71,10 @@
         margin-right: 0px;
         margin-left: 50px;
     }
+
+    #about{
+        padding-bottom: 0px !important;
+    }
     #about-heading{
         padding-right: 80px;
     }
