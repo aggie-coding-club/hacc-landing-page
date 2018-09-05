@@ -2,8 +2,8 @@ $(function(){
     const sr = ScrollReveal();
 
     //ScrollReveal Parts
-    sr.reveal('.sponsor-logo', { duration: 1500, distance: '10px'}, 50);
-    sr.reveal('.contact-item', { duration: 1500, distance: '10px'}, 50);
+    sr.reveal('.sponsor-logo', { duration: 1500}, 50);
+    sr.reveal('.contact-item', { duration: 1500}, 50);
 
     //Provides the functionality for the expansions of the boxes in the FAQ section
     var acc = document.getElementsByClassName("accordion");
