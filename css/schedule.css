@@ -56,6 +56,22 @@
     font-family: 'myriad-pro', sans-serif;
 }
 
+.card-line-items:nth-child(4n+1){
+    background-color: #28ACB3;
+}
+
+.card-line-items:nth-child(4n+2){
+    background-color: #23999F;
+}
+
+.card-line-items:nth-child(4n+3){
+    background-color: #1E868B;
+}
+
+.card-line-items:nth-child(4n){
+    background-color: #197377;
+}
+
 .line-item-title{
     width: 100px;
     text-align: center;
