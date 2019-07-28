@@ -47,7 +47,10 @@
 } 
 
 .panel p{
-    font-family: "myriad-pro", sans-serif;
+
+
+    font-family: 'Inconsolata', monospace;
+
 }
 
 @media(max-width: 700px){
